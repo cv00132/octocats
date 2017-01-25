@@ -9,11 +9,12 @@ ul .authors {
   float: right;
   top: 5px;
   padding-left: 5px;
+  border: none;
 }
 
 ul li {
   list-style: none;
-  padding-left: 15px;
+  margin-left: 15px;
   padding-bottom: 7px;
 }
 
@@ -24,11 +25,12 @@ ul li {
   display: inline;
   float: left;
   border: 2px solid lightgrey;
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 .octocat {
   float: left;
+  border-bottom: solid 2px lightgrey;
 }
 
 .image-caption {
@@ -44,6 +46,7 @@ ul li {
   width: 25px;
   float: right;
   border-radius: 1px;
+  border: none;
 }
 
 .authors {
