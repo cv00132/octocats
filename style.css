@@ -4,6 +4,10 @@
   -webkit-box-sizing: border-box;
 }
 
+.octodex {
+  margin: 15px auto auto -50px ;
+}
+
 a {
   color: #222D28;
   font: 100% sans-serif;
@@ -26,18 +30,18 @@ ul li {
 }
 
 .octocat img {
-  height: 325px;
-  width: 325px;
+  height: 350px;
+  width: 350px;
   margin-bottom: 10px;
   display: inline;
   float: left;
-  border: 2px solid lightgrey;
+  border: 2px solid #C8C8C8;
   border-radius: 2px;
 }
 
 .octocat {
   float: left;
-  border-bottom: solid 2px lightgrey;
+  border-bottom: solid 2px #C8C8C8;
 }
 
 .image-caption {
@@ -46,10 +50,12 @@ ul li {
   font: 80% sans-serif;
   text-decoration: none;
   position: relative;
+  height: 33px;
+  line-height: 27px;
 }
 
 .image-number {
-  color: #CDC9C6;
+  color: #C8C8C8;
   font: 80% sans-serif;
   font-weight: bold;
 }
@@ -72,15 +78,15 @@ ul li {
   height: 0;
   border-style: solid;
   border-width: 6px 6px 0 6px;
-  border-color: #afb2b5 transparent transparent transparent;
+  border-color: #C8C8C8 transparent transparent transparent;
   position: absolute;
   top: -10px;
-  right: -0px;
+  right: 1px;
 }
 
 .image-number::before {
   content:"#" ;
-  color:  #CDC9C6;
+  color:  #C8C8C8;
 }
 
 /* triangle code:
