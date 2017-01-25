@@ -4,18 +4,26 @@
   -webkit-box-sizing: border-box;
 }
 
+a {
+  color: #222D28;
+  font: 100% sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 ul .authors {
   list-style: none;
   float: right;
   top: 5px;
-  padding-left: 5px;
+  padding-left: 0px;
   border: none;
+  margin-left: -5px;
 }
 
 ul li {
   list-style: none;
   margin-left: 15px;
-  padding-bottom: 7px;
 }
 
 .octocat img {
@@ -35,10 +43,13 @@ ul li {
 
 .image-caption {
   float: right;
+  color: #637278;
+  font: 80% sans-serif;
+  text-decoration: none;
 }
 
 .image-number {
-
+  color: #CDC9C6;
 }
 
 .authors img {
